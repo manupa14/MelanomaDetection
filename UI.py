@@ -15,7 +15,7 @@ def load_image():
     if not file_path:
         messagebox.showinfo("Info", "No image selected.")
         return
-
+#test
     try:
         img = Image.open(file_path)
         img = img.resize((224, 224))
